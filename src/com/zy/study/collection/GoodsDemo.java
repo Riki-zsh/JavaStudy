@@ -1,7 +1,6 @@
 package com.zy.study.collection;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -65,10 +64,12 @@ public class GoodsDemo {
         getGoods(hashMap);
     }
 
+
     public static void getGoods(Map<String, Good> map) {
         System.out.println("当前拥有商品:");
         for (Good good : map.values()) {
             System.out.println(good);
         }
     }
+
 }
