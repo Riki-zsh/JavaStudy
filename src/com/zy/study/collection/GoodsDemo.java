@@ -71,5 +71,4 @@ public class GoodsDemo {
             System.out.println(good);
         }
     }
-
 }
